@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IecBCpveeOY=",
+  "dgSpecHash": "LOGqZlTUNxI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregados\\SistemaEmpregados\\SistemaEmpregados.csproj",
+  "projectFilePath": "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregado\\SistemaEmpregados\\SistemaEmpregados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaio Quaresma\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Kaio Quaresma\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

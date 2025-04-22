@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregados\\SistemaEmpregados\\SistemaEmpregados.csproj": {}
+    "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregado\\SistemaEmpregados\\SistemaEmpregados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregados\\SistemaEmpregados\\SistemaEmpregados.csproj": {
+    "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregado\\SistemaEmpregados\\SistemaEmpregados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregados\\SistemaEmpregados\\SistemaEmpregados.csproj",
+        "projectUniqueName": "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregado\\SistemaEmpregados\\SistemaEmpregados.csproj",
         "projectName": "SistemaEmpregados",
-        "projectPath": "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregados\\SistemaEmpregados\\SistemaEmpregados.csproj",
+        "projectPath": "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregado\\SistemaEmpregados\\SistemaEmpregados.csproj",
         "packagesPath": "C:\\Users\\Kaio Quaresma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregados\\SistemaEmpregados\\obj\\",
+        "outputPath": "C:\\Users\\Kaio Quaresma\\Documents\\Codigos\\sistemaEmpregado\\SistemaEmpregados\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
