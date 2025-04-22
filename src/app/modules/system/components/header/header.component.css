@@ -1,0 +1,22 @@
+:host {
+    header {
+        height: 120px;
+        display: flex;
+        align-items: center;
+        background: var(--black-010);
+
+        .container {
+            padding-bottom: 10px;
+            margin-left: auto;
+
+            ul,
+            li,
+            a {
+                color: var(--white);
+                display: inline-block;
+                padding: 0 20px;
+                font-size: 20px;
+            }
+        }
+    }
+}
