@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "SistemaEmpregados": {
+    "sistemaEmpregado": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/sistema-empregados",
+            "outputPath": "dist/sistema-empregado",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -29,7 +29,9 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"
@@ -64,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "SistemaEmpregados:build:production"
+              "buildTarget": "sistemaEmpregado:build:production"
             },
             "development": {
-              "buildTarget": "SistemaEmpregados:build:development"
+              "buildTarget": "sistemaEmpregado:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,7 +90,9 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"
@@ -98,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "21945ecc-67b7-499e-b2dc-82375851ef7b"
   }
 }

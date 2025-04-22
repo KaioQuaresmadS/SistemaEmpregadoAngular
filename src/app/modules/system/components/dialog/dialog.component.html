@@ -1,0 +1,20 @@
+<main>
+    <article>
+        <div class="container">
+            <h2 mat-dialog-title>Cadastrar item</h2>
+            <mat-dialog-content>
+                <input type="text" [(ngModel)]="empregador.firstName" placeholder="Nome">
+                <input type="text" [(ngModel)]="empregador.lastName" placeholder="Sobrenome">
+                <input type="text" [(ngModel)]="empregador.email" placeholder="Email">
+                <input type="text" [(ngModel)]="empregador.contantNo" placeholder="Contato">
+                <input type="text" [(ngModel)]="empregador.city" placeholder="Cidade">
+                <input type="text" [(ngModel)]="empregador.address" placeholder="Endereço">
+            </mat-dialog-content>
+            <mat-dialog-actions align="end">
+                <button mat-button (click)="cadastrar()" class="btn-form">Salvar</button>
+                <button mat-button mat-dialog-close="true" class="btn-form">Sair</button>
+            </mat-dialog-actions>
+
+        </div>
+    </article>
+</main>

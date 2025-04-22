@@ -1,0 +1,32 @@
+<footer>
+    <div class="container">
+        <ul class="contact-box">
+            @for(item of contactBox(); track item){
+            <li>
+                <img [src]="item.src" [alt]="item.alt" [title]="item.title" width="40px" height="40px"> <span>
+                    {{getText(item.title)}}
+                </span>
+
+            </li>
+            }
+        </ul>
+
+        <div class="sub-container">
+            <h3>Sobre a Empresa</h3>
+            <p>Oferecemos soluções simples e eficazes para o gerenciamento de estoque, com controle de entradas, saídas
+                e gráficos de movimentação.</p>
+
+            <ul>
+                <h3>Redes socias</h3>
+                @for (item of picture(); track item) {
+                <li>
+                    <img [src]="item.src" [alt]="item.alt" [title]="item.title" width="40px" height="40px" />
+                </li>
+                }
+
+            </ul>
+        </div>
+
+
+    </div>
+</footer>

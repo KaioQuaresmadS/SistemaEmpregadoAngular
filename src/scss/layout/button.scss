@@ -1,0 +1,34 @@
+.btn {
+    width: 245px;
+    height: 100px;
+    background: var(--grey);
+    border-radius: 35px;
+    border: none;
+    font-size: 23px;
+    color: var(--white-010);
+    cursor: pointer;
+
+    &.btn-second {
+        margin: 88px 173px 0px;
+    }
+}
+
+.btn-form {
+    gap: 30px;
+    padding: 10px;
+    color: (var(--white-010));
+    background: var(--black);
+    border: 0px;
+    margin: 0px 50px;
+    width: 60px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn-form:hover {
+
+    background: var(--grey);
+    color: var(--white);
+    transition: .5s;
+}

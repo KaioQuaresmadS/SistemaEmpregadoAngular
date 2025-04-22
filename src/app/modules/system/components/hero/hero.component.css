@@ -1,0 +1,35 @@
+:host {
+    main {
+
+        .container {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+
+            .body-container {
+                margin-bottom: 165px;
+            }
+
+            article {
+                display: flex;
+                padding: 10px;
+                gap: 160px;
+
+            }
+
+            h2 {
+                font-size: 100px;
+                font-family: 'Arimo';
+                text-align: center;
+            }
+
+            h3 {
+                font-size: 30px;
+                font-family: 'Arimo';
+                text-align: center;
+            }
+        }
+    }
+}
