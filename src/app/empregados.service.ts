@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class EmpregadorService {
-  private apiUrl = 'https://localhost:7053/api/empregados';
+  private apiUrl = 'https://generous-empathy-production.up.railway.app/api/empregados';
   constructor(private http: HttpClient) { }
 
   postEmpregador(empregador: any) {

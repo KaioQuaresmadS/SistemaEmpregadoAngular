@@ -18,7 +18,7 @@ export class DialogComponent {
     firstName: '',
     lastName: '',
     email: '',
-    contantNo: '',
+    phone: '',
     city: '',
     address: '',
   };
