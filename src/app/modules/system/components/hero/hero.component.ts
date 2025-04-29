@@ -3,7 +3,8 @@ import { Component, inject } from '@angular/core';
 //Material
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EDialogPanelClass } from '../../enum/EDialogPanelClass';
-import { DialogComponent } from '../dialog/dialog.component';
+import { DialogCadastroComponent } from '../dialog-cadastro/dialog-cadastro.component';
+import { DialogConsultaComponent } from '../dialog-consulta/dialog-consulta.component';
 
 @Component({
   selector: 'app-hero',
@@ -17,9 +18,11 @@ export class HeroComponent {
 
   public openDialog(data: any) {
 
-    this.#dialog.open(DialogComponent, {
+    this.#dialog.open(DialogCadastroComponent, {
       data,
       panelClass: EDialogPanelClass.PROJECTS
-    })
-  }
+    });
+  };
+
+  
 }

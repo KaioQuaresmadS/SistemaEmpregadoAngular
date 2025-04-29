@@ -9,10 +9,10 @@ import { EmpregadorService } from '../../../../empregados.service';
   selector: 'app-dialog',
   standalone: true,
   imports: [MatDialogModule, FormsModule, CommonModule],
-  templateUrl: './dialog.component.html',
-  styleUrl: './dialog.component.css'
+  templateUrl: './dialog-cadastro.component.html',
+  styleUrl: './dialog-cadastro.component.css'
 })
-export class DialogComponent {
+export class DialogCadastroComponent {
 
   empregador = {
     firstName: '',
@@ -24,7 +24,7 @@ export class DialogComponent {
   };
 
   constructor(private empregadorService: EmpregadorService,
-    private dialogRef: MatDialogRef<DialogComponent>) { }
+    private dialogRef: MatDialogRef<DialogCadastroComponent>) { }
 
   cadastrar() {
     console.log('Botão clicado!', this.empregador);

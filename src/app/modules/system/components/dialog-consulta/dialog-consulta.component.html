@@ -1,0 +1,22 @@
+<main>
+    <article>
+        <div class="container">
+            <h2 mat-dialog-title>Detalhes do Empregador</h2>
+            <mat-dialog-content>
+                <p>Id: {{ data.empregadorId }}</p>
+                <p>Nome:  {{ data.firstName }}</p>
+                <p>Sobrenome: {{ data.lastName }}</p>
+                <p>Email: {{  data.email }}</p>
+                <p>Contato: {{ data.phone }}</p>
+                <p>Cidade: {{ data.city }}</p>
+                <p>Endereço: {{ data.address }}</p>
+            </mat-dialog-content>
+            <mat-dialog-actions>
+                @for(item of button(); track item){
+                    <button mat-button class="btn-form">{{item.srcEditar}}</button>
+
+                }
+            </mat-dialog-actions>
+        </div>
+    </article>
+</main>
