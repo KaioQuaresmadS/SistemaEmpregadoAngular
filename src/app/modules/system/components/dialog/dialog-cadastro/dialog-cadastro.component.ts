@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MatDialogRef } from '@angular/material/dialog';
 import { MatDialogModule } from '@angular/material/dialog';
-import { EmpregadorService } from '../../../../empregados.service';
+import { EmpregadorService } from '../../../../../empregados.service';
 
 @Component({
   selector: 'app-dialog',

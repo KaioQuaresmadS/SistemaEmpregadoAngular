@@ -1,0 +1,79 @@
+<main>
+  <article>
+    <div class="container">
+      <h2 mat-dialog-title>Detalhes do Empregador</h2>
+      <mat-dialog-content>
+        <table mat-table [dataSource]="[empregador]" class="mat-table">
+          <!-- Id -->
+
+          <ng-container matColumnDef="empregadorId">
+            <th mat-header-cell *matHeaderCellDef>Id</th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.empregadorId }}
+            </td>
+          </ng-container>
+
+          <!-- Nome Column -->
+          <ng-container matColumnDef="nome">
+            <th mat-header-cell *matHeaderCellDef>Nome</th>
+            <td mat-cell *matCellDef="let element">{{ element.firstName }}</td>
+          </ng-container>
+          <ng-container matColumnDef="nome">
+            <th mat-header-cell *matHeaderCellDef>Sobrenome</th>
+            <td mat-cell *matCellDef="let element">{{ element.lastName }}</td>
+          </ng-container>
+
+          <!-- Email Column -->
+          <ng-container matColumnDef="email">
+            <th mat-header-cell *matHeaderCellDef>Email</th>
+            <td mat-cell *matCellDef="let element">{{ element.email }}</td>
+          </ng-container>
+
+          <!-- Contato Column -->
+          <ng-container matColumnDef="contato">
+            <th mat-header-cell *matHeaderCellDef>Contato</th>
+            <td mat-cell *matCellDef="let element">{{ element.phone }}</td>
+          </ng-container>
+
+          <!-- Cidade Column -->
+          <ng-container
+            matColumnDef="
+            cidade"
+          >
+            <th mat-header-cell *matHeaderCellDef>Cidade</th>
+            <td mat-cell *matCellDef="let element">{{ element.city }}</td>
+          </ng-container>
+
+          <!-- Endereço Column -->
+          <ng-container matColumnDef="endereço">
+            <th mat-header-cell *matCellDef="let element">
+              {{ element.address }}
+            </th>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef displayedColumns></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+        </table>
+        <!-- <p>Id: {{ data.empregadorId }}</p>
+        <p>Nome: {{ data.firstName }}</p>
+        <p>Sobrenome: {{ data.lastName }}</p>
+        <p>Email: {{ data.email }}</p>
+        <p>Contato: {{ data.phone }}</p>
+        <p>Cidade: {{ data.city }}</p>
+        <p>Endereço: {{ data.address }}</p> -->
+      </mat-dialog-content>
+      <mat-dialog-actions>
+        @for(item of button(); track item){
+        <button mat-button>
+          <img
+            class="btn-second"
+            [src]="item.srcEditar"
+            [alt]="item.altDeletar"
+          />
+        </button>
+
+        }
+      </mat-dialog-actions>
+    </div>
+  </article>
+</main>

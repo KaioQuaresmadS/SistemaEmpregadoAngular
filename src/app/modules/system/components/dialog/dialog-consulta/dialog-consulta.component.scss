@@ -1,0 +1,12 @@
+:host{
+    .container{
+        width: 400px;
+        overflow: hidden;
+
+        p{
+            gap: 30px;
+            border-bottom: 3px solid var(--black);
+            border-radius: 3px;
+        }
+    }
+}

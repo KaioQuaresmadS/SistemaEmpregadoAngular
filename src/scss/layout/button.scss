@@ -1,3 +1,7 @@
+button {
+    border: none;
+}
+
 .btn {
     width: 245px;
     height: 100px;
@@ -8,8 +12,22 @@
     color: var(--white-010);
     cursor: pointer;
 
-    &.btn-second {
-        margin: 88px 173px 0px;
+}
+
+.btn-second{
+    display: flex;
+    align-items: center;
+    padding: 10px !important;
+    margin: 20px auto !important;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px black;
+
+    &:hover{
+    box-shadow: inset 2px 2px 2px black;
+
     }
 }
 
