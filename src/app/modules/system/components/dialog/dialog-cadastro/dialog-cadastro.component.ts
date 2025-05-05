@@ -40,7 +40,7 @@ export class DialogCadastroComponent {
         console.error('Erro ao cadastro', err)
         alert('Erro ao cadastrar o empregado')
       }
-    })
-  }
+    });
+  };
 }
 
